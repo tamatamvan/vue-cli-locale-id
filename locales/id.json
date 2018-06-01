@@ -1,86 +1,86 @@
 {
   "components": {
     "connection-status": {
-      "disconnected": "Disconnected from UI server",
-      "connected": "Connected!"
+      "disconnected": "Koneksi ke UI Server terputus!",
+      "connected": "Terhubung!"
     },
     "file-diff": {
-      "binary": "Binary file not shown",
+      "binary": "File binari tidak ditampilkan",
       "actions": {
-        "open": "Open in editor"
+        "open": "Buka di editor"
       }
     },
     "file-diff-view": {
-      "files-changed": "Files changed",
-      "search-file": "Search file",
-      "empty": "No change found",
+      "files-changed": "File yang telah diubah",
+      "search-file": "Cari file",
+      "empty": "Tidak ada perubahan",
       "modals": {
         "commit": {
-          "title": "Commit changes",
-          "input": "Enter a commit message",
-          "subtitle": "Record changes to the repository",
+          "title": "Simpan perubahan",
+          "input": "Masukkan pesan perubahan (Commit messages)",
+          "subtitle": "Perubahan telah disimpan ke repository",
           "actions": {
-            "commit": "Commit",
-            "cancel": "Cancel"
+            "commit": "Simpan",
+            "cancel": "Batal"
           }
         }
       },
       "actions": {
-        "collapse-all": "Collapse all",
-        "expand-all": "Expand all",
-        "commit": "Commit changes",
-        "skip": "Skip",
-        "continue": "Continue",
-        "refresh": "Refresh"
+        "collapse-all": "Sembunyikan semua",
+        "expand-all": "Tampilkan semua",
+        "commit": "Simpan perubahan",
+        "skip": "Lewati",
+        "continue": "Lanjutkan",
+        "refresh": "Muat ulang"
       }
     },
     "folder-explorer": {
       "toolbar": {
         "tooltips": {
-          "parent-folder": "Open parent folder",
-          "edit-path": "Edit path",
-          "favorite": "Toggle favorite",
-          "favorite-folders": "Favorite folders",
-          "refresh": "Refresh"
+          "parent-folder": "Buka folder induk",
+          "edit-path": "Sunting lokasi",
+          "favorite": "Toggle favorit",
+          "favorite-folders": "Folder Favorit",
+          "refresh": "Muat ulang"
         },
-        "placeholder": "Enter the full path to a folder",
-        "empty": "No favorite folders yet."
+        "placeholder": "Masukkan lokasi lengkap folder",
+        "empty": "Belum ada folder favorit."
       }
     },
     "list-item-info": {
-      "more-info": "More Info"
+      "more-info": "Lebih Lanjut"
     },
     "logger-view": {
-      "title": "Logs",
-      "empty": "Not logs yet",
+      "title": "Catatan",
+      "empty": "Belum ada catatan",
       "buttons": {
-        "clear": "Clear logs",
-        "scroll": "Scroll to bottom",
-        "close": "Close"
+        "clear": "Bersihkan catatan",
+        "scroll": "Scroll ke akhir",
+        "close": "Tutup"
       }
     },
     "progress-screen": {
-      "close": "Close"
+      "close": "Tutup"
     },
     "project-nav": {
       "tooltips": {
         "plugins": "Plugins",
-        "configuration": "Configuration",
-        "tasks": "Tasks",
-        "more": "More"
+        "configuration": "Pengaturan",
+        "tasks": "Tugas",
+        "more": "Lebih lanjut"
       }
     },
     "project-select-list": {
-      "empty": "No existing projects",
+      "empty": "Tidak ada proyek sebelumnya",
       "titles": {
-        "favorite": "Favorite projects",
-        "other": "Other projects"
+        "favorite": "Proyek Favorit",
+        "other": "Proyek lainnya"
       }
     },
     "project-select-list-item": {
       "tooltips": {
         "favorite": "Toggle favorite",
-        "delete": "Delete"
+        "delete": "Hapus"
       }
     },
     "project-plugin-item": {
@@ -96,7 +96,7 @@
       "default": "Default"
     },
     "prompts-list": {
-      "empty": "No configuration"
+      "empty": "Tidak ada pengaturan"
     },
     "status-bar": {
       "project": {
@@ -321,7 +321,7 @@
       "actions": {
         "play": "Run task",
         "stop": "Stop task",
-        "close": "Close"
+        "close": "Tutup"
       },
       "command": "Script command",
       "parameters": "Parameters",
