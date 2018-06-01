@@ -79,15 +79,15 @@
     },
     "project-select-list-item": {
       "tooltips": {
-        "favorite": "Toggle favorite",
+        "favorite": "Toggle favorit",
         "delete": "Hapus"
       }
     },
     "project-plugin-item": {
-      "version": "version",
-      "latest": "latest",
-      "official": "Official",
-      "installed": "Installed",
+      "version": "versi",
+      "latest": "terbaru",
+      "official": "Resmi",
+      "installed": "Terinstal",
       "actions": {
         "update": "Update {target}"
       }
@@ -101,41 +101,41 @@
     "status-bar": {
       "project": {
         "tooltip": "Current project<br><i>Click to toggle Project Manager</i>",
-        "empty": "No project"
+        "empty": "Tidak ada projek"
       },
       "path": {
-        "tooltip": "Current Working Folder"
+        "tooltip": "Folder Kerja Saat Ini"
       },
       "log": {
         "tooltip": "Logs<br><i>Click to toggle Vue CLI logs</i>",
-        "empty": "No logs yet"
+        "empty": "Belum ada catatan"
       },
       "report-bug": "Report bug",
       "translate": "Help translate"
     },
     "terminal-view": {
       "buttons": {
-        "clear": "Clear console",
+        "clear": "Bersihkan konsol",
         "scroll": "Scroll to bottom"
       }
     },
     "top-bar": {
-      "no-favorites": "No favorite projects"
+      "no-favorites": "Tidak ada projek favorit"
     },
     "view-badge": {
       "labels": {
         "tasks": {
-          "error": "Error status",
-          "running": "Running status",
-          "done": "Done status"
+          "error": "Status Eror",
+          "running": "Status Berjalan",
+          "done": "Status Selesai"
         }
       }
     }
   },
   "mixins": {
     "progress": {
-      "creating": "Creating project...",
-      "git-init": "Initializing git repository...",
+      "creating": "Sedang Membuat Projek...",
+      "git-init": "Sedang Menginisialisasi repositori git...",
       "plugins-install": "Installing Vue CLI plugins. This might take a while...",
       "invoking-generators": "Invoking generators...",
       "deps-install": "Installing additional dependencies...",
