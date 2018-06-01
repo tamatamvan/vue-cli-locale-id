@@ -1,0 +1,22 @@
+{
+  "name": "vue-cli-locale-id",
+  "version": "0.1.0",
+  "description": "Indonesian localization for @vue/cli",
+  "unpkg": "./locales/id.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamatamvan/vue-cli-locale-id.git"
+  },
+  "keywords": [
+    "vuejs",
+    "vue-cli",
+    "id",
+    "locale"
+  ],
+  "author": "Septian A Tama <septian.a.tama@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tamatamvan/vue-cli-locale-id/issues"
+  },
+  "homepage": "https://github.com/tamatamvan/vue-cli-locale-id#readme"
+}
