@@ -100,27 +100,27 @@
     },
     "status-bar": {
       "project": {
-        "tooltip": "Current project<br><i>Click to toggle Project Manager</i>",
-        "empty": "No project"
+        "tooltip": "Proyek saat ini<br><i>Klik untuk toggle Manajer Proyek</i>",
+        "empty": "Tidak ada proyek"
       },
       "path": {
-        "tooltip": "Current Working Folder"
+        "tooltip": "Folder Saat Ini"
       },
       "log": {
-        "tooltip": "Logs<br><i>Click to toggle Vue CLI logs</i>",
-        "empty": "No logs yet"
+        "tooltip": "Catatan<br><i>Klik untuk toggle Catatan Vue CLI</i>",
+        "empty": "Belum ada catatan"
       },
-      "report-bug": "Report bug",
-      "translate": "Help translate"
+      "report-bug": "Laporkan bug",
+      "translate": "Bantu terjemahkan"
     },
     "terminal-view": {
       "buttons": {
-        "clear": "Clear console",
-        "scroll": "Scroll to bottom"
+        "clear": "Bersihkan console",
+        "scroll": "Scroll ke akhir"
       }
     },
     "top-bar": {
-      "no-favorites": "No favorite projects"
+      "no-favorites": "Belum ada proyek favorit"
     },
     "view-badge": {
       "labels": {
@@ -161,48 +161,48 @@
   },
   "views": {
     "project-select": {
-      "title": "Vue Project Manager",
+      "title": "Vue Manajer Proyek",
       "tabs": {
-        "projects": "Projects",
-        "create": "Create",
-        "import": "Import"
+        "projects": "Proyek",
+        "create": "Buat",
+        "import": "Impor"
       },
       "buttons": {
-        "create": "Create a new project here",
-        "import": "Import this folder"
+        "create": "Buat proyek baru di sini",
+        "import": "Impor folder berikut"
       }
     },
     "project-create": {
-      "title": "Create a new project",
+      "title": "Buat proyek",
       "tabs": {
         "details": {
-          "title": "Details",
+          "title": "Rincian",
           "form": {
             "folder": {
-              "label": "Project folder",
-              "placeholder": "my-app",
-              "tooltip": "Change base folder",
-              "action": "Select this folder"
+              "label": "Folder Proyek",
+              "placeholder": "proyek-saya",
+              "tooltip": "Ubah folder dasar",
+              "action": "Pilih folder berikut"
             },
             "manager": {
-              "label": "Package manager",
+              "label": "Manajer Paket",
               "default": "Default"
             },
             "options": {
-              "label": "Additional options",
-              "description": "Overwrite target folder if it exists"
+              "label": "Opsi tambahan",
+              "description": "Timpa target folder apabila sudah ada"
             }
           },
           "buttons": {
-            "cancel": "Cancel",
-            "next": "Next"
+            "cancel": "Batal",
+            "next": "Selanjutnya"
           },
           "modal": {
-            "title": "Cancel and reset project creation",
-            "body": "Are you sure you want to reset the project creation?",
+            "title": "Batalkan dan mulai ulang pembuatan projek",
+            "body": "Apa anda yakin untuk memulai ulang pembuatan proyek?",
             "buttons": {
-              "back": "Go back",
-              "clear": "Clear project"
+              "back": "Kembali",
+              "clear": "Bersihkan proyek"
             }
           }
         },
