@@ -11,7 +11,7 @@
       }
     },
     "file-diff-view": {
-      "files-changed": "File yang telah diubah",
+      "files-changed": "File yang diubah",
       "search-file": "Cari file",
       "empty": "Tidak ada perubahan",
       "modals": {
@@ -125,27 +125,27 @@
     "view-badge": {
       "labels": {
         "tasks": {
-          "error": "Error status",
-          "running": "Running status",
-          "done": "Done status"
+          "error": "Status galat",
+          "running": "Status berjalan",
+          "done": "Status selesai"
         }
       }
     }
   },
   "mixins": {
     "progress": {
-      "creating": "Creating project...",
-      "git-init": "Initializing git repository...",
-      "plugins-install": "Installing Vue CLI plugins. This might take a while...",
-      "invoking-generators": "Invoking generators...",
-      "deps-install": "Installing additional dependencies...",
-      "completion-hooks": "Running completion hooks...",
-      "fetch-remote-preset": "Fetching remote preset...",
-      "done": "Successfully created project",
-      "plugin-install": "Installing {arg0}...",
-      "plugin-uninstall": "Uninstalling {arg0}...",
-      "plugin-invoke": "Invoking {arg0}...",
-      "plugin-update": "Updating {arg0}..."
+      "creating": "Membuat proyek...",
+      "git-init": "Menginisialisasi git repository...",
+      "plugins-install": "Memasang plugin untuk Vue CLI. Butuh beberapa saat untuk selesai...",
+      "invoking-generators": "Menjalankan generators...",
+      "deps-install": "Memasang dependencies tambahan...",
+      "completion-hooks": "Menjalankan completion hooks...",
+      "fetch-remote-preset": "Mengambil remote preset...",
+      "done": "Proyek berhasil dibuat",
+      "plugin-install": "Memasang {arg0}...",
+      "plugin-uninstall": "Menghapus pemasangan {arg0}...",
+      "plugin-invoke": "Mengaktifkan {arg0}...",
+      "plugin-update": "Memperbarui {arg0}..."
     }
   },
   "types": {
@@ -207,120 +207,120 @@
           }
         },
         "presets": {
-          "title": "Presets",
-          "description": "A preset is an association of plugins and configurations. After you've selected features, you can optionally save it as a preset so that you can reuse it for future projects, without having to reconfigure everything again.",
-          "select": "Select a preset",
+          "title": "Preset",
+          "description": "Preset adalah sebuah kumpulan dari plugin dan pengaturan yang ada. Setelah anda memilih fitur-fitur yang ingin anda gunakan, anda memiliki opsi untuk menyimpannya sebagai sebuah preset untuk digunakan kembali di proyek sebelumnya, tanpa harus mengatur ulang semuanya dari awal.",
+          "select": "Pilih preset",
           "buttons": {
-            "previous": "Previous",
-            "next": "Next",
-            "create": "Create Project"
+            "previous": "Sebelumnya",
+            "next": "Selanjutnya",
+            "create": "Buat Proyek"
           },
           "modal": {
-            "title": "Configure Remote preset",
-            "body": "Available soon..."
+            "title": "Mengatur Remote preset",
+            "body": "Segera tersedia..."
           },
           "manual": {
             "name": "Manual",
-            "description": "Manually select features"
+            "description": "Pilih fitur secara manual"
           },
           "remote": {
             "name": "Remote preset",
-            "description": "Fetch a preset from a git repository"
+            "description": "Ambil preset dari git repository"
           },
           "default-preset": "Default preset"
         },
         "features": {
-          "title": "Features",
-          "description": "You will be able to add features after the project is created by installing plugins.",
-          "enable": "Enable features",
+          "title": "Fitur",
+          "description": "Anda dapat menambahkan fitur dengan dengan memasang plugin setelah proyek dibuat.",
+          "enable": "Aktifkan Fitur",
           "buttons": {
-            "previous": "Previous",
-            "next": "Next",
-            "create": "Create Project"
+            "previous": "Sebelumnya",
+            "next": "Selanjutnya",
+            "create": "Buat Proyek"
           },
           "userConfigFiles": {
-            "name": "Use config files",
-            "description": "Use specific configuration files (like '.babelrc') instead of using 'package.json'."
+            "name": "Gunakan file konfigurasi",
+            "description": "Gunakan file konfigurasi terpisah (seperti '.babelrc') dibandingkan dengan menggunakan 'package.json'."
           }
         },
         "configuration": {
-          "title": "Configuration",
+          "title": "Pengaturan",
           "buttons": {
-            "previous": "Previous",
-            "create": "Create Project"
+            "previous": "Sebelumnya",
+            "create": "Buat Proyek"
           },
           "modal": {
-            "title": "Save as a new preset",
+            "title": "Simpan sebagai preset baru",
             "body": {
-              "title": "Preset name",
-              "subtitle": "Save the features and configuration into a new preset"
+              "title": "Nama preset",
+              "subtitle": "Simpan fitur dan pengaturan sebgai preset baru"
             },
             "buttons": {
-              "cancel": "Cancel",
-              "continue": "Continue without saving",
-              "create": "Create a new preset"
+              "cancel": "Batal",
+              "continue": "Lanjutkan tanpa menyimpan",
+              "create": "Buat preset baru"
             }
           }
         }
       }
     },
     "project-plugins": {
-      "title": "Project plugins",
-      "button": "Add plugin",
-      "heading": "Installed plugins"
+      "title": "Plugin Proyek",
+      "button": "Tambahkan plugin",
+      "heading": "Plugin terinstal"
     },
     "project-plugins-add": {
-      "title": "Add a plugin",
+      "title": "Tambahkan plugin",
       "plugin": "plugin",
       "tabs": {
         "search": {
-          "label": "Search",
-          "search-input": "Search a plugin",
-          "not-found": "No results found",
+          "label": "Cari",
+          "search-input": "Cari plugin",
+          "not-found": "Tidak ada hasil yang ditemukan",
           "buttons": {
-            "cancel": "Cancel",
-            "install": "Install {target}"
+            "cancel": "Batal",
+            "install": "Pasang {target}"
           }
         },
         "configuration": {
-          "label": "Configuration",
-          "heading": "Installation of {target}",
+          "label": "Pengaturan",
+          "heading": "Pemasangan {target}",
           "buttons": {
-            "cancel": "Cancel",
-            "finish": "Finish installation"
+            "cancel": "Batal",
+            "finish": "Selesaikan pemasangan"
           }
         },
         "diff": {
-          "label": "Files changed"
+          "label": "File yang diubah"
         }
       },
       "modal": {
-        "title": "Uninstall {target}?",
-        "body": "Do you want to uninstall the {target} plugin?",
+        "title": "Hapus pemasangan {target}?",
+        "body": "Apakah anda yakin untuk menghapus pemsangan plugin {target}?",
         "buttons": {
-          "back": "Go back",
-          "cancel": "Cancel without uninstalling",
-          "uninstall": "Uninstall"
+          "back": "Kembali",
+          "cancel": "Batalkan tanpa hapus pemasangan",
+          "uninstall": "Hapus pemasangan"
         }
       }
     },
     "project-configurations": {
-      "title": "Project configuration"
+      "title": "Konfigurasi proyek"
     },
     "project-configuration-details": {
       "actions": {
-        "cancel": "Cancel changes",
-        "save": "Save changes",
-        "more-info": "More info"
+        "cancel": "Batalkan perubahan",
+        "save": "Simpan perubahan",
+        "more-info": "Lebih lanjut"
       }
     },
     "project-tasks": {
-      "title": "Project tasks"
+      "title": "Tugas Proyek"
     },
     "project-task-details": {
       "actions": {
-        "play": "Run task",
-        "stop": "Stop task",
+        "play": "Jalankan tugas",
+        "stop": "Hentikan tugas",
         "close": "Tutup"
       },
       "command": "Script command",
