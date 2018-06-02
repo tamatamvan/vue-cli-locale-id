@@ -18,7 +18,7 @@
         "commit": {
           "title": "Simpan perubahan",
           "input": "Masukkan pesan perubahan (Commit messages)",
-          "subtitle": "Perubahan telah disimpan ke repository",
+          "subtitle": "Perubahan telah disimpan ke repositori",
           "actions": {
             "commit": "Simpan",
             "cancel": "Batal"
@@ -135,7 +135,7 @@
   "mixins": {
     "progress": {
       "creating": "Membuat proyek...",
-      "git-init": "Menginisialisasi git repository...",
+      "git-init": "Menginisialisasi git repositori...",
       "plugins-install": "Memasang plugin untuk Vue CLI. Butuh beberapa saat untuk selesai...",
       "invoking-generators": "Menjalankan generators...",
       "deps-install": "Memasang dependencies tambahan...",
@@ -198,7 +198,7 @@
             "next": "Selanjutnya"
           },
           "modal": {
-            "title": "Batalkan dan mulai ulang pembuatan projek",
+            "title": "Batalkan dan mulai ulang pembuatan proyek",
             "body": "Apa anda yakin untuk memulai ulang pembuatan proyek?",
             "buttons": {
               "back": "Kembali",
@@ -225,7 +225,7 @@
           },
           "remote": {
             "name": "Remote preset",
-            "description": "Ambil preset dari git repository"
+            "description": "Ambil preset dari git repositori"
           },
           "default-preset": "Default preset"
         },
@@ -366,7 +366,7 @@
       },
       "asset-list": {
         "title": "Aset",
-        "size-warning": "Aset berikut terlalu besar, lakukan code-splitting untuk menghasilkan ukuran asset yang lebih kecil."
+        "size-warning": "Aset berikut terlalu besar, lakukan code-splitting untuk menghasilkan ukuran aset yang lebih kecil."
       }
     },
     "analyzer": {
@@ -423,7 +423,7 @@
       "eslint-extra": {
         "description": "Pengaturan Ekstra ESLint",
         "lintOnSave": {
-          "message": "Periksa saat simpat",
+          "message": "Periksa saat simpan",
           "description": "Secara otomatis memeriksa kesalahan kode sumber pada file saat disimpan"
         }
       }
