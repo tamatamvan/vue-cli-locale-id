@@ -444,7 +444,7 @@
           "description": "Ini memungkinkan Anda memilih antara dua mode yang didukung oleh `workbox-webpack-plugin`"
         },
         "name": {
-          "message": "Nama app",
+          "message": "Nama Aplikasi",
           "description": "Nama aplikasi ditampilkan di layar Splash dan berbagai tempat lainnya. Juga digunakan sebagai nilai untuk meta tag `apple-mobile-web-app-title` di HTML yang dibuat."
         },
         "themeColor": {
@@ -469,18 +469,18 @@
   "cypress": {
     "tasks": {
       "test": {
-        "description": "jalankan e2e tes dengan `cypress run`",
-        "headless": "jalankan dalam mode headless tanpa GUI",
+        "description": "Jalankan e2e tes dengan `cypress run`",
+        "headless": "Jalankan dalam mode headless tanpa GUI",
         "mode": "Tentukan mode yang akan dijalankan <b>dev server</b>",
-        "url": "jalankan e2e test pada url yang diberikan <b>dev server</b> sebagai ganti <b>auto-starting</b>"
+        "url": "Jalankan e2e test pada url yang diberikan <b>dev server</b> sebagai ganti <b>auto-starting</b>"
       }
     }
   },
   "nightwatch": {
     "tasks": {
       "test": {
-        "description": "jalankan e2e tes dengan nightwatch",
-        "url": "jalankan e2e tes pada url yang diberikan gunakan <b>dev server</b> sebagai ganti <b>auto-starting</b>"
+        "description": "Jalankan e2e tes dengan nightwatch",
+        "url": "Jalankan e2e tes pada url yang diberikan gunakan <b>dev server</b> sebagai ganti <b>auto-starting</b>"
       }
     }
   }
