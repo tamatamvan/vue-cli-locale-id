@@ -324,62 +324,62 @@
         "close": "Tutup"
       },
       "command": "Script command",
-      "parameters": "Parameters",
-      "parameters-info": "Parameters will be saved when the task is run.",
-      "more-info": "More Info",
-      "output": "Output"
+      "parameters": "Parameter",
+      "parameters-info": "Parameter akan disimpan ketika tugas berjalan.",
+      "more-info": "Lebih Lanjut",
+      "output": "Keluaran"
     },
     "about": {
-      "title": "About",
-      "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> is a built-in package of vue-cli which opens a full-blown UI.",
-      "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
-      "links": "Useful links",
-      "back": "Go back"
+      "title": "Tentang",
+      "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> adalah paket built-in dari vue-cli yang akan menampilkan antarmuka yang lengkap",
+      "quote": "Vue-cli 3.x merupakan hasil penulisan ulang total (dari versi sebelumnya), dengan banyak fitur baru yang luar biasa. Anda akan dapat menambahkan dan memilih fitur seperti routing, Vuex, dan TypeScript, serta dapat melakukan penambahan lebih lanjut menggunakan \"vue-cli plugins\". Akan tetapi dengan adanya lebih banyak opsi dan fitur menjadikan vue-cli lebih kompleks dan lebih sulit untuk mulai digunakan. Itulah mengapa kami merasa dengan memiliki tampilan grafis (GUI) yang lengkap akan membantu pengguna untuk mempelajari fitur-fitur baru, mencari dan memasang vue-cli plugins dan dapat membuka lebih banyak posibilitas secara keseluruhan tanpa harus terbatasi dengan antar muka terminal. Singkatnya, vue-cli tidak hanya akan membantu anda untuk memulai sebuah project baru dengan mudah, tapi juga akan tetap membantu dalam proses pengerjaan proyek!",
+      "links": "Link Berguna",
+      "back": "Kembali"
     }
   },
   "vue-webpack": {
     "dashboard": {
-      "title": "Dashboard",
-      "open-app": "Open app",
+      "title": "Dasbor",
+      "open-app": "Buka aplikasi",
       "webpack-status": {
-        "Success": "Success",
-        "Failed": "Failed",
-        "Compiling": "Compiling",
-        "Invalidated": "Invalidated",
+        "Success": "Berhasil",
+        "Failed": "Gagal",
+        "Compiling": "Menyusun",
+        "Invalidated": "Dibatalkan",
         "Idle": "Idle"
       },
       "build-status": {
         "labels": {
           "status": "Status",
-          "errors": "Errors",
-          "warnings": "Warnings",
-          "assets": "Assets",
-          "modules": "Modules",
-          "deps": "Dependencies"
+          "errors": "Galat",
+          "warnings": "Peringatan",
+          "assets": "Aset",
+          "modules": "Modul",
+          "deps": "Dependensi"
         }
       },
       "speed-stats": {
-        "title": "Speed stats"
+        "title": "Status kecepatan"
       },
       "module-list": {
-        "title": "Dependencies"
+        "title": "Dependensi"
       },
       "asset-list": {
-        "title": "Assets",
-        "size-warning": "This asset is big, consider using Code splitting to create smaller assets."
+        "title": "Aset",
+        "size-warning": "Aset berikut terlalu besar, lakukan code-splitting untuk menghasilkan ukuran asset yang lebih kecil."
       }
     },
     "analyzer": {
-      "title": "Analyzer",
-      "go-up": "Go up",
-      "go-home": "Go to home",
-      "chunk": "Chunk"
+      "title": "Penganalisa",
+      "go-up": "Ke atas",
+      "go-home": "Ke beranda",
+      "chunk": "Bingkah"
     },
     "sizes": {
-      "stats": "Stats",
-      "parsed": "Parsed",
+      "stats": "Status",
+      "parsed": "Terurai",
       "gzip": "Gzip",
-      "help": "<b>Stats:</b> size from webpack stats data.<br><b>Parsed:</b> size from extracted source (after minification plugins). More accurate.<br><b>Gzip:</b> size of gzipped extracted source."
+      "help": "<b>Status:</b> ukuran pada webpack stats data.<br><b>Parsed:</b> ukuran pada kode sumber yang telah diekstrak (setelah minification plugin). Lebih akurat.<br><b>Gzip:</b> ukuran pada gzipped extracted source."
     },
     "tasks": {
       "serve": {
