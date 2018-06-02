@@ -11,7 +11,7 @@
       }
     },
     "file-diff-view": {
-      "files-changed": "File yang telah diubah",
+      "files-changed": "File yang diubah",
       "search-file": "Cari file",
       "empty": "Tidak ada perubahan",
       "modals": {
@@ -107,11 +107,18 @@
         "tooltip": "Folder Kerja Saat Ini"
       },
       "log": {
-        "tooltip": "Logs<br><i>Click to toggle Vue CLI logs</i>",
+        "tooltip": "Proyek saat ini<br><i>Klik untuk toggle Manajer Proyek</i>",
+        "empty": "Tidak ada proyek"
+      },
+      "path": {
+        "tooltip": "Folder Saat Ini"
+      },
+      "log": {
+        "tooltip": "Catatan<br><i>Klik untuk toggle Catatan Vue CLI</i>",
         "empty": "Belum ada catatan"
       },
-      "report-bug": "Report bug",
-      "translate": "Help translate"
+      "report-bug": "Laporkan bug",
+      "translate": "Bantu terjemahkan"
     },
     "terminal-view": {
       "buttons": {
@@ -121,6 +128,12 @@
     },
     "top-bar": {
       "no-favorites": "Tidak ada projek favorit"
+        "clear": "Bersihkan console",
+        "scroll": "Scroll ke akhir"
+      }
+    },
+    "top-bar": {
+      "no-favorites": "Belum ada proyek favorit"
     },
     "view-badge": {
       "labels": {
@@ -134,18 +147,18 @@
   },
   "mixins": {
     "progress": {
-      "creating": "Sedang Membuat Projek...",
-      "git-init": "Sedang Menginisialisasi repositori git...",
-      "plugins-install": "Installing Vue CLI plugins. This might take a while...",
-      "invoking-generators": "Invoking generators...",
-      "deps-install": "Installing additional dependencies...",
-      "completion-hooks": "Running completion hooks...",
-      "fetch-remote-preset": "Fetching remote preset...",
-      "done": "Successfully created project",
-      "plugin-install": "Installing {arg0}...",
-      "plugin-uninstall": "Uninstalling {arg0}...",
-      "plugin-invoke": "Invoking {arg0}...",
-      "plugin-update": "Updating {arg0}..."
+      "creating": "Membuat proyek...",
+      "git-init": "Menginisialisasi git repository...",
+      "plugins-install": "Memasang plugin untuk Vue CLI. Butuh beberapa saat untuk selesai...",
+      "invoking-generators": "Menjalankan generators...",
+      "deps-install": "Memasang dependencies tambahan...",
+      "completion-hooks": "Menjalankan completion hooks...",
+      "fetch-remote-preset": "Mengambil remote preset...",
+      "done": "Proyek berhasil dibuat",
+      "plugin-install": "Memasang {arg0}...",
+      "plugin-uninstall": "Menghapus pemasangan {arg0}...",
+      "plugin-invoke": "Mengaktifkan {arg0}...",
+      "plugin-update": "Memperbarui {arg0}..."
     }
   },
   "types": {
@@ -161,225 +174,225 @@
   },
   "views": {
     "project-select": {
-      "title": "Vue Project Manager",
+      "title": "Vue Manajer Proyek",
       "tabs": {
-        "projects": "Projects",
-        "create": "Create",
-        "import": "Import"
+        "projects": "Proyek",
+        "create": "Buat",
+        "import": "Impor"
       },
       "buttons": {
-        "create": "Create a new project here",
-        "import": "Import this folder"
+        "create": "Buat proyek baru di sini",
+        "import": "Impor folder berikut"
       }
     },
     "project-create": {
-      "title": "Create a new project",
+      "title": "Buat proyek",
       "tabs": {
         "details": {
-          "title": "Details",
+          "title": "Rincian",
           "form": {
             "folder": {
-              "label": "Project folder",
-              "placeholder": "my-app",
-              "tooltip": "Change base folder",
-              "action": "Select this folder"
+              "label": "Folder Proyek",
+              "placeholder": "proyek-saya",
+              "tooltip": "Ubah folder dasar",
+              "action": "Pilih folder berikut"
             },
             "manager": {
-              "label": "Package manager",
+              "label": "Manajer Paket",
               "default": "Default"
             },
             "options": {
-              "label": "Additional options",
-              "description": "Overwrite target folder if it exists"
+              "label": "Opsi tambahan",
+              "description": "Timpa target folder apabila sudah ada"
             }
           },
           "buttons": {
-            "cancel": "Cancel",
-            "next": "Next"
+            "cancel": "Batal",
+            "next": "Selanjutnya"
           },
           "modal": {
-            "title": "Cancel and reset project creation",
-            "body": "Are you sure you want to reset the project creation?",
+            "title": "Batalkan dan mulai ulang pembuatan projek",
+            "body": "Apa anda yakin untuk memulai ulang pembuatan proyek?",
             "buttons": {
-              "back": "Go back",
-              "clear": "Clear project"
+              "back": "Kembali",
+              "clear": "Bersihkan proyek"
             }
           }
         },
         "presets": {
-          "title": "Presets",
-          "description": "A preset is an association of plugins and configurations. After you've selected features, you can optionally save it as a preset so that you can reuse it for future projects, without having to reconfigure everything again.",
-          "select": "Select a preset",
+          "title": "Preset",
+          "description": "Preset adalah sebuah kumpulan dari plugin dan pengaturan yang ada. Setelah anda memilih fitur-fitur yang ingin anda gunakan, anda memiliki opsi untuk menyimpannya sebagai sebuah preset untuk digunakan kembali di proyek sebelumnya, tanpa harus mengatur ulang semuanya dari awal.",
+          "select": "Pilih preset",
           "buttons": {
-            "previous": "Previous",
-            "next": "Next",
-            "create": "Create Project"
+            "previous": "Sebelumnya",
+            "next": "Selanjutnya",
+            "create": "Buat Proyek"
           },
           "modal": {
-            "title": "Configure Remote preset",
-            "body": "Available soon..."
+            "title": "Mengatur Remote preset",
+            "body": "Segera tersedia..."
           },
           "manual": {
             "name": "Manual",
-            "description": "Manually select features"
+            "description": "Pilih fitur secara manual"
           },
           "remote": {
             "name": "Remote preset",
-            "description": "Fetch a preset from a git repository"
+            "description": "Ambil preset dari git repository"
           },
           "default-preset": "Default preset"
         },
         "features": {
-          "title": "Features",
-          "description": "You will be able to add features after the project is created by installing plugins.",
-          "enable": "Enable features",
+          "title": "Fitur",
+          "description": "Anda dapat menambahkan fitur dengan dengan memasang plugin setelah proyek dibuat.",
+          "enable": "Aktifkan Fitur",
           "buttons": {
-            "previous": "Previous",
-            "next": "Next",
-            "create": "Create Project"
+            "previous": "Sebelumnya",
+            "next": "Selanjutnya",
+            "create": "Buat Proyek"
           },
           "userConfigFiles": {
-            "name": "Use config files",
-            "description": "Use specific configuration files (like '.babelrc') instead of using 'package.json'."
+            "name": "Gunakan file konfigurasi",
+            "description": "Gunakan file konfigurasi terpisah (seperti '.babelrc') dibandingkan dengan menggunakan 'package.json'."
           }
         },
         "configuration": {
-          "title": "Configuration",
+          "title": "Pengaturan",
           "buttons": {
-            "previous": "Previous",
-            "create": "Create Project"
+            "previous": "Sebelumnya",
+            "create": "Buat Proyek"
           },
           "modal": {
-            "title": "Save as a new preset",
+            "title": "Simpan sebagai preset baru",
             "body": {
-              "title": "Preset name",
-              "subtitle": "Save the features and configuration into a new preset"
+              "title": "Nama preset",
+              "subtitle": "Simpan fitur dan pengaturan sebgai preset baru"
             },
             "buttons": {
-              "cancel": "Cancel",
-              "continue": "Continue without saving",
-              "create": "Create a new preset"
+              "cancel": "Batal",
+              "continue": "Lanjutkan tanpa menyimpan",
+              "create": "Buat preset baru"
             }
           }
         }
       }
     },
     "project-plugins": {
-      "title": "Project plugins",
-      "button": "Add plugin",
-      "heading": "Installed plugins"
+      "title": "Plugin Proyek",
+      "button": "Tambahkan plugin",
+      "heading": "Plugin terinstal"
     },
     "project-plugins-add": {
-      "title": "Add a plugin",
+      "title": "Tambahkan plugin",
       "plugin": "plugin",
       "tabs": {
         "search": {
-          "label": "Search",
-          "search-input": "Search a plugin",
-          "not-found": "No results found",
+          "label": "Cari",
+          "search-input": "Cari plugin",
+          "not-found": "Tidak ada hasil yang ditemukan",
           "buttons": {
-            "cancel": "Cancel",
-            "install": "Install {target}"
+            "cancel": "Batal",
+            "install": "Pasang {target}"
           }
         },
         "configuration": {
-          "label": "Configuration",
-          "heading": "Installation of {target}",
+          "label": "Pengaturan",
+          "heading": "Pemasangan {target}",
           "buttons": {
-            "cancel": "Cancel",
-            "finish": "Finish installation"
+            "cancel": "Batal",
+            "finish": "Selesaikan pemasangan"
           }
         },
         "diff": {
-          "label": "Files changed"
+          "label": "File yang diubah"
         }
       },
       "modal": {
-        "title": "Uninstall {target}?",
-        "body": "Do you want to uninstall the {target} plugin?",
+        "title": "Hapus pemasangan {target}?",
+        "body": "Apakah anda yakin untuk menghapus pemsangan plugin {target}?",
         "buttons": {
-          "back": "Go back",
-          "cancel": "Cancel without uninstalling",
-          "uninstall": "Uninstall"
+          "back": "Kembali",
+          "cancel": "Batalkan tanpa hapus pemasangan",
+          "uninstall": "Hapus pemasangan"
         }
       }
     },
     "project-configurations": {
-      "title": "Project configuration"
+      "title": "Konfigurasi proyek"
     },
     "project-configuration-details": {
       "actions": {
-        "cancel": "Cancel changes",
-        "save": "Save changes",
-        "more-info": "More info"
+        "cancel": "Batalkan perubahan",
+        "save": "Simpan perubahan",
+        "more-info": "Lebih lanjut"
       }
     },
     "project-tasks": {
-      "title": "Project tasks"
+      "title": "Tugas Proyek"
     },
     "project-task-details": {
       "actions": {
-        "play": "Run task",
-        "stop": "Stop task",
+        "play": "Jalankan tugas",
+        "stop": "Hentikan tugas",
         "close": "Tutup"
       },
       "command": "Script command",
-      "parameters": "Parameters",
-      "parameters-info": "Parameters will be saved when the task is run.",
-      "more-info": "More Info",
-      "output": "Output"
+      "parameters": "Parameter",
+      "parameters-info": "Parameter akan disimpan ketika tugas berjalan.",
+      "more-info": "Lebih Lanjut",
+      "output": "Keluaran"
     },
     "about": {
-      "title": "About",
-      "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> is a built-in package of vue-cli which opens a full-blown UI.",
-      "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
-      "links": "Useful links",
-      "back": "Go back"
+      "title": "Tentang",
+      "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> adalah paket built-in dari vue-cli yang akan menampilkan antarmuka yang lengkap",
+      "quote": "Vue-cli 3.x merupakan hasil penulisan ulang total (dari versi sebelumnya), dengan banyak fitur baru yang luar biasa. Anda akan dapat menambahkan dan memilih fitur seperti routing, Vuex, dan TypeScript, serta dapat melakukan penambahan lebih lanjut menggunakan \"vue-cli plugins\". Akan tetapi dengan adanya lebih banyak opsi dan fitur menjadikan vue-cli lebih kompleks dan lebih sulit untuk mulai digunakan. Itulah mengapa kami merasa dengan memiliki tampilan grafis (GUI) yang lengkap akan membantu pengguna untuk mempelajari fitur-fitur baru, mencari dan memasang vue-cli plugins dan dapat membuka lebih banyak posibilitas secara keseluruhan tanpa harus terbatasi dengan antar muka terminal. Singkatnya, vue-cli tidak hanya akan membantu anda untuk memulai sebuah project baru dengan mudah, tapi juga akan tetap membantu dalam proses pengerjaan proyek!",
+      "links": "Link Berguna",
+      "back": "Kembali"
     }
   },
   "vue-webpack": {
     "dashboard": {
-      "title": "Dashboard",
-      "open-app": "Open app",
+      "title": "Dasbor",
+      "open-app": "Buka aplikasi",
       "webpack-status": {
-        "Success": "Success",
-        "Failed": "Failed",
-        "Compiling": "Compiling",
-        "Invalidated": "Invalidated",
+        "Success": "Berhasil",
+        "Failed": "Gagal",
+        "Compiling": "Menyusun",
+        "Invalidated": "Dibatalkan",
         "Idle": "Idle"
       },
       "build-status": {
         "labels": {
           "status": "Status",
-          "errors": "Errors",
-          "warnings": "Warnings",
-          "assets": "Assets",
-          "modules": "Modules",
-          "deps": "Dependencies"
+          "errors": "Galat",
+          "warnings": "Peringatan",
+          "assets": "Aset",
+          "modules": "Modul",
+          "deps": "Dependensi"
         }
       },
       "speed-stats": {
-        "title": "Speed stats"
+        "title": "Status kecepatan"
       },
       "module-list": {
-        "title": "Dependencies"
+        "title": "Dependensi"
       },
       "asset-list": {
-        "title": "Assets",
-        "size-warning": "This asset is big, consider using Code splitting to create smaller assets."
+        "title": "Aset",
+        "size-warning": "Aset berikut terlalu besar, lakukan code-splitting untuk menghasilkan ukuran asset yang lebih kecil."
       }
     },
     "analyzer": {
-      "title": "Analyzer",
-      "go-up": "Go up",
-      "go-home": "Go to home",
-      "chunk": "Chunk"
+      "title": "Penganalisa",
+      "go-up": "Ke atas",
+      "go-home": "Ke beranda",
+      "chunk": "Bingkah"
     },
     "sizes": {
-      "stats": "Stats",
-      "parsed": "Parsed",
+      "stats": "Status",
+      "parsed": "Terurai",
       "gzip": "Gzip",
-      "help": "<b>Stats:</b> size from webpack stats data.<br><b>Parsed:</b> size from extracted source (after minification plugins). More accurate.<br><b>Gzip:</b> size of gzipped extracted source."
+      "help": "<b>Status:</b> ukuran pada webpack stats data.<br><b>Parsed:</b> ukuran pada kode sumber yang telah diekstrak (setelah minification plugin). Lebih akurat.<br><b>Gzip:</b> ukuran pada gzipped extracted source."
     },
     "tasks": {
       "serve": {
@@ -440,28 +453,28 @@
       "pwa": {
         "description": "Progressive Web App",
         "workboxPluginMode": {
-          "message": "Plugin mode",
-          "description": "This allows you to the choose between the two modes supported by the underlying `workbox-webpack-plugin`"
+          "message": "Mode Plugin",
+          "description": "Ini memungkinkan Anda memilih antara dua mode yang didukung oleh `workbox-webpack-plugin`"
         },
         "name": {
-          "message": "App name",
-          "description": "App name displayed on the Splash screen and various other places. Also used as the value for the `apple-mobile-web-app-title` meta tag in the generated HTML."
+          "message": "Nama Aplikasi",
+          "description": "Nama aplikasi ditampilkan di layar Splash dan berbagai tempat lainnya. Juga digunakan sebagai nilai untuk meta tag `apple-mobile-web-app-title` di HTML yang dibuat."
         },
         "themeColor": {
-          "message": "Theme color",
-          "description": "Color used to theme the browser"
+          "message": "Warna tema",
+          "description": "Warna digunakan untuk tema browser"
         },
         "backgroundColor": {
-          "message": "Splash background color",
-          "description": "Background color used for the app splash screen"
+          "message": "Warna latar splash",
+          "description": "Warna latar belakang digunakan untuk layar splash aplikasi"
         },
         "msTileColor": {
-          "message": "Windows app tile color",
-          "description": "Color used for the app tile on Windows"
+          "message": "Warna <i>tile</i> aplikasi Windows",
+          "description": "Warna yang digunakan untuk <i>tile</i> aplikasi di Windows"
         },
         "appleMobileWebAppStatusBarStyle": {
-          "message": "Apple mobile status bar style",
-          "description": "Style for the web app status bar on iOS"
+          "message": "Gaya bilah status seluler Apple",
+          "description": "Gaya untuk bilah status aplikasi web di iOS"
         }
       }
     }
@@ -469,18 +482,18 @@
   "cypress": {
     "tasks": {
       "test": {
-        "description": "Run e2e tests with `cypress run`",
-        "headless": "Run in headless mode without GUI",
-        "mode": "Specify the mode the dev server should run in",
-        "url": "Run e2e tests against given url instead of auto-starting dev server"
+        "description": "Jalankan e2e tes dengan `cypress run`",
+        "headless": "Jalankan dalam mode headless tanpa GUI",
+        "mode": "Tentukan mode yang akan dijalankan <b>dev server</b>",
+        "url": "Jalankan e2e test pada url yang diberikan <b>dev server</b> sebagai ganti <b>auto-starting</b>"
       }
     }
   },
   "nightwatch": {
     "tasks": {
       "test": {
-        "description": "Run e2e tests with nightwatch",
-        "url": "Run e2e tests against given url instead of auto-starting dev server"
+        "description": "Jalankan e2e tes dengan nightwatch",
+        "url": "Jalankan e2e tes pada url yang diberikan gunakan <b>dev server</b> sebagai ganti <b>auto-starting</b>"
       }
     }
   }
