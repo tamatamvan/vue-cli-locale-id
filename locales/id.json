@@ -383,17 +383,17 @@
     },
     "tasks": {
       "serve": {
-        "description": "Compiles and hot-reloads for development",
-        "open": "Open browser on server start",
-        "mode": "Specify env mode",
-        "host": "Specify host",
-        "port": "Specify port",
-        "https": "Use HTTPS"
+        "description": "Susun dan hot-reload untuk development",
+        "open": "Buka browser saat server mulai berjalan",
+        "mode": "Tentukan mode env",
+        "host": "Tentukan host",
+        "port": "Tentukan port",
+        "https": "Gunakan HTTPS"
       },
       "build": {
-        "description": "Compiles and minifies for production",
-        "mode": "Specify env mode",
-        "dest": "Output directory",
+        "description": "Susun dan kecilkan untuk mode production",
+        "mode": "Tentukan env mode",
+        "dest": "Direktori keluaran",
         "target": {
           "description": "Build target",
           "app": "Web app",
@@ -401,37 +401,37 @@
           "wc": "Web component",
           "wc-async": "Async web component"
         },
-        "name": "Name for library or web-component mode (default: 'name' in package.json or entry filename)",
-        "watch": "Watch for changes"
+        "name": "Nama untuk library atau web-component mode (default: 'name' pada package.json atau entry filename)",
+        "watch": "Pantau perubahan"
       },
       "inspect": {
-        "description": "Inspect the resolved webpack config",
-        "mode": "Specify env mode",
-        "verbose": "Show full function definitions in output"
+        "description": "Periksa konfigurasi webpack yang dihasilkan",
+        "mode": "Tentukan env mode",
+        "verbose": "Tampilkan definisi lengkap fungsi pada output"
       }
     }
   },
   "eslint": {
     "config": {
       "eslint": {
-        "description": "Error checking & Code quality",
+        "description": "Pemeriksaan galat & Kualitas kode",
         "groups": {
-          "strongly-recommended": "Strongly recommended",
-          "recommended": "Recommended"
+          "strongly-recommended": "Sangat direkomendasikan",
+          "recommended": "Direkomendasikan"
         }
       },
       "eslint-extra": {
-        "description": "Extra ESLint settings",
+        "description": "Pengaturan Ekstra ESLint",
         "lintOnSave": {
-          "message": "Lint on save",
-          "description": "Automatically lint source files when saved"
+          "message": "Periksa saat simpat",
+          "description": "Secara otomatis memeriksa kesalahan kode sumber pada file saat disimpan"
         }
       }
     },
     "tasks": {
       "lint": {
-        "description": "Lints and fixes files",
-        "noFix": "Do not fix errors"
+        "description": "Periksa dan perbaiki kesalahan file",
+        "noFix": "Jangan perbaiki kesalahan"
       }
     }
   },
