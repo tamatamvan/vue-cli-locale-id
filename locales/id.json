@@ -351,10 +351,10 @@
       "build-status": {
         "labels": {
           "status": "Status",
-          "errors": "Eror",
-          "warnings": "Peringatan",
+          "errors": "Errors",
+          "warnings": "Warnings",
           "assets": "Assets",
-          "modules": "Modul",
+          "modules": "Modules",
           "deps": "Dependencies"
         }
       },
@@ -401,7 +401,7 @@
           "wc": "Web component",
           "wc-async": "Async web component"
         },
-        "name": "Nama pustaka atau mode web-component (default: 'name' dalam package.json atau namaberkas entri seperti: 'index.js')",
+        "name": "Nama pustaka atau mode web-component (default: 'name' dalam package.json atau namaberkas entri seperti: 'index.js)",
         "watch": "Watch semua perubahan"
       },
       "inspect": {
