@@ -351,10 +351,10 @@
       "build-status": {
         "labels": {
           "status": "Status",
-          "errors": "Errors",
-          "warnings": "Warnings",
+          "errors": "Eror",
+          "warnings": "Peringatan",
           "assets": "Assets",
-          "modules": "Modules",
+          "modules": "Modul",
           "deps": "Dependencies"
         }
       },
@@ -401,13 +401,13 @@
           "wc": "Web component",
           "wc-async": "Async web component"
         },
-        "name": "Name for library or web-component mode (default: 'name' in package.json or entry filename)",
-        "watch": "Watch for changes"
+        "name": "Nama pustaka atau mode web-component (default: 'name' dalam package.json atau namaberkas entri seperti: 'index.js')",
+        "watch": "Watch semua perubahan"
       },
       "inspect": {
         "description": "Inspect the resolved webpack config",
-        "mode": "Specify env mode",
-        "verbose": "Show full function definitions in output"
+        "mode": "Rincikan mode env",
+        "verbose": "Tampilkan seluruh definisi function dalam output"
       }
     }
   },
@@ -416,21 +416,21 @@
       "eslint": {
         "description": "Error checking & Code quality",
         "groups": {
-          "strongly-recommended": "Strongly recommended",
-          "recommended": "Recommended"
+          "strongly-recommended": "Sangat-sangat direkomendasikan",
+          "recommended": "Direkomendasikan"
         }
       },
       "eslint-extra": {
-        "description": "Extra ESLint settings",
+        "description": "Pengaturan tambahan ESLint",
         "lintOnSave": {
-          "message": "Lint on save",
-          "description": "Automatically lint source files when saved"
+          "message": "Lint ketika disimpan",
+          "description": "Lint sumber berkas ketika sudah tersimpan, secara otomatis"
         }
       }
     },
     "tasks": {
       "lint": {
-        "description": "Lints and fixes files",
+        "description": "Lint dan perbaiki berkas",
         "noFix": "Do not fix errors"
       }
     }
