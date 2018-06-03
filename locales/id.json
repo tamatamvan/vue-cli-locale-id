@@ -401,6 +401,15 @@
           "wc": "Web component",
           "wc-async": "Async web component"
         },
+
+        "name": "Nama pustaka atau mode web-component (default: 'name' dalam package.json atau namaberkas entri seperti: 'index.js)",
+        "watch": "Watch semua perubahan"
+      },
+      "inspect": {
+        "description": "Inspect the resolved webpack config",
+        "mode": "Rincikan mode env",
+        "verbose": "Tampilkan seluruh definisi function dalam output"
+
         "name": "Nama untuk library atau web-component mode (default: 'name' pada package.json atau entry filename)",
         "watch": "Pantau perubahan"
       },
@@ -408,6 +417,7 @@
         "description": "Periksa konfigurasi webpack yang dihasilkan",
         "mode": "Tentukan env mode",
         "verbose": "Tampilkan definisi lengkap fungsi pada output"
+
       }
     }
   },
@@ -416,22 +426,38 @@
       "eslint": {
         "description": "Pemeriksaan galat & Kualitas kode",
         "groups": {
+
+          "strongly-recommended": "Sangat-sangat direkomendasikan",
+
           "strongly-recommended": "Sangat direkomendasikan",
+
           "recommended": "Direkomendasikan"
         }
       },
       "eslint-extra": {
+
+        "description": "Pengaturan tambahan ESLint",
+        "lintOnSave": {
+          "message": "Lint ketika disimpan",
+          "description": "Lint sumber berkas ketika sudah tersimpan, secara otomatis"
+
         "description": "Pengaturan Ekstra ESLint",
         "lintOnSave": {
           "message": "Periksa saat simpan",
           "description": "Secara otomatis memeriksa kesalahan kode sumber pada file saat disimpan"
+
         }
       }
     },
     "tasks": {
       "lint": {
+
+        "description": "Lint dan perbaiki berkas",
+        "noFix": "Do not fix errors"
+
         "description": "Periksa dan perbaiki kesalahan file",
         "noFix": "Jangan perbaiki kesalahan"
+
       }
     }
   },
